@@ -1,4 +1,4 @@
-{% set version = "0.5.0" %}
+{% set version = "0.6.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/xportr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/xportr/xportr_{{ version }}.tar.gz
-  sha256: 2296ee173eafdad51d37c7773c66cbe53989782838eb988fab77eae9ea55339d
+  sha256: a5dd3b4ae50a10f375b755ffbda19243fbdc4502b671f508a9754fe214598f0e
 
 build:
   number: 0
